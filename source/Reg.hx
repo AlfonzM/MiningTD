@@ -9,6 +9,9 @@ import flixel.util.FlxSave;
  */
 class Reg
 {
+	// Gibs
+	public static inline var ENEMY_GIBS:String = "images/enemy_gibs.png";
+
 	/**
 	 * Generic levels Array that can be used for cross-state stuff.
 	 * Example usage: Storing the levels of a platformer.

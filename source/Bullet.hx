@@ -15,9 +15,11 @@ class Bullet extends FlxSprite
     {
         super();
 
-        makeGraphic(10, 8, FlxColor.WHITE);
+        makeGraphic(8, 6, FlxColor.WHITE);
 
-        _speed = 360 * 2;
+        _speed = 500;
+
+        centerOrigin();
     }
 
     override public function update():Void
